@@ -1,7 +1,7 @@
 baseURL: "https://merry-purdue.github.io/site/"
 title: xie
 paginate: 5
-theme: PaperMod
+theme: Papermod
 
 enableRobotsTXT: true
 buildDrafts: false
