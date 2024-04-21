@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.net/posts/reddit/</loc>
+  </url><url>
+    <loc>https://example.net/posts/linter/</loc>
+  </url><url>
+    <loc>https://example.net/posts/function_calling/</loc>
+  </url><url>
+    <loc>https://example.net/archives/</loc>
+  </url><url>
+    <loc>https://example.net/categories/</loc>
+  </url><url>
+    <loc>https://example.net/tags/machine-learning/</loc>
+  </url><url>
+    <loc>https://example.net/tags/openai/</loc>
+  </url><url>
+    <loc>https://example.net/posts/</loc>
+  </url><url>
+    <loc>https://example.net/tags/python/</loc>
+  </url><url>
+    <loc>https://example.net/categories/python/</loc>
+  </url><url>
+    <loc>https://example.net/search/</loc>
+  </url><url>
+    <loc>https://example.net/tags/</loc>
+  </url><url>
+    <loc>https://example.net/tags/tutorials/</loc>
+  </url><url>
+    <loc>https://example.net/</loc>
+  </url>
+</urlset>

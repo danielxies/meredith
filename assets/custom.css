@@ -1,0 +1,13 @@
+.blinking-cursor {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 2px;
+    color: black; /* Adjust the color to fit your design */
+    animation: blink-animation 1s steps(5, start) infinite;
+  }
+  
+  @keyframes blink-animation {
+    from { visibility: visible; }
+    to { visibility: hidden; }
+  }
+  
