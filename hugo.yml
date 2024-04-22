@@ -129,10 +129,11 @@ menu:
       #url: https://youtube.com
       #weight: 30
 
-    # - identifier: archives
+    #- identifier: archives
     # name: archives
     #  url: /archives/
     #  weight: 50
+    
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

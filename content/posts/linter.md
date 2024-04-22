@@ -4,7 +4,7 @@ date: false
 weight: 2
 # aliases: ["/first"]
 tags: ["python"]
-author: "daniel"
+author: "by"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
