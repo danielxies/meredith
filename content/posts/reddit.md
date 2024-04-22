@@ -2,7 +2,7 @@
 title: "automating youtube shorts with python"
 date: false
 weight: 1
-aliases: ["/automation"]
+# aliases: ["/automation"]
 tags: ["python"]
 author: "daniel"
 # author: ["Me", "You"] # multiple authors
