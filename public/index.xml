@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>xie</title>
-    <link>http://localhost:1313/site/</link>
+    <link>http://localhost:1313/meredith/</link>
     <description>Recent content on xie</description>
     <image>
       <title>xie</title>
-      <url>http://localhost:1313/site/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/site/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/meredith/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/meredith/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.125.1</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/meredith/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>automating youtube shorts with python</title>
-      <link>http://localhost:1313/site/posts/reddit/</link>
+      <link>http://localhost:1313/meredith/posts/reddit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/posts/reddit/</guid>
+      <guid>http://localhost:1313/meredith/posts/reddit/</guid>
       <description>Abstract Youtube shorts, instagram reels, tiktok– these are all short videos. There is one niche in particular, where entertaining background footage is combined with text to speech storytelling that pulls quite a bit of traction and viewership.
 Once you look at these videos a little more, you realize how simple they are. Thus, can they be automated?
 Yes, they can. Here is a high level overview to how I started with nothing, and eventually built a discord bot and a frontend that could do every part of the process, from finding a story to uploading it to social media platforms.</description>
     </item>
     <item>
       <title>fixing code style with style</title>
-      <link>http://localhost:1313/site/posts/linter/</link>
+      <link>http://localhost:1313/meredith/posts/linter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/posts/linter/</guid>
+      <guid>http://localhost:1313/meredith/posts/linter/</guid>
       <description>Key Topics OpenAI API Function Chains Validation Prompt Engineering Abstract In my university computer science course, we have an extensive code standard. We are provided with a linter that is a bash script and identifies most errors, but it doesn&amp;rsquo;t cover every case, such as embedded constants and local variable definitions. In this project, I will focus on embedded constants and cover 1. identifying these, and 2, fixing these.
 The strategy I use to solve this issue can be applied to anything similar.</description>
     </item>
     <item>
       <title>introduction to openai function calling</title>
-      <link>http://localhost:1313/site/posts/function_calling/</link>
+      <link>http://localhost:1313/meredith/posts/function_calling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site/posts/function_calling/</guid>
+      <guid>http://localhost:1313/meredith/posts/function_calling/</guid>
       <description>Key Topics OpenAI Function Calls State Handling API Integration Abstract q: what is the uuid of the player merrydith? Question: How can my code respond to human like speech input?
 This project is a demonstration on how a large language model can access information outside of the data set it was trained on. OpenAI has added the capability to create functions (ex. accessing mojang api) and call respective functions when the language model sees fit.</description>
     </item>

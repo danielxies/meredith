@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/site/posts/reddit/</loc>
+    <loc>http://localhost:1313/meredith/posts/reddit/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/posts/linter/</loc>
+    <loc>http://localhost:1313/meredith/posts/linter/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/posts/function_calling/</loc>
+    <loc>http://localhost:1313/meredith/posts/function_calling/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/archives/</loc>
+    <loc>http://localhost:1313/meredith/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/categories/</loc>
+    <loc>http://localhost:1313/meredith/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/meredith/tags/machine-learning/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/openai/</loc>
+    <loc>http://localhost:1313/meredith/tags/openai/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/posts/</loc>
+    <loc>http://localhost:1313/meredith/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/python/</loc>
+    <loc>http://localhost:1313/meredith/tags/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/categories/python/</loc>
+    <loc>http://localhost:1313/meredith/categories/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/search/</loc>
+    <loc>http://localhost:1313/meredith/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/</loc>
+    <loc>http://localhost:1313/meredith/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/tutorials/</loc>
+    <loc>http://localhost:1313/meredith/tags/tutorials/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/</loc>
+    <loc>http://localhost:1313/meredith/</loc>
   </url>
 </urlset>
