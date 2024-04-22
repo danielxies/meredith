@@ -72,7 +72,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: 'create a <a href="/meredith/reddit/" style="text-decoration: underline;">side hustle.</a><br>or look at some of my <a href="/meredith/tags/" style="text-decoration: underline;">projects</a>.<br>or <a href="https://example.net" style="text-decoration: underline;">contact me</a>'
+    Title: 'create a <a href="/meredith/posts/reddit/" style="text-decoration: underline;">side hustle.</a><br>or look at some of my <a href="/meredith/tags/" style="text-decoration: underline;">projects</a>.<br>or <a href="https://example.net" style="text-decoration: underline;">contact me</a>'
 
 
   socialIcons:
