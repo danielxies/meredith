@@ -95,8 +95,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/merry-git"
-    Text: "daniel" # edit text
+    URL: "https://github.com/meeeeredith"
+    Text: "🪐" # edit text
     appendFilePath: false # to append file path to Edit link
 
   # for search
