@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tutorials on xie</title>
-    <link>http://localhost:1313/meredith/tags/tutorials/</link>
+    <link>https://meriedith.com/tags/tutorials/</link>
     <description>Recent content in Tutorials on xie</description>
     <image>
       <title>xie</title>
-      <url>http://localhost:1313/meredith/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/meredith/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://meriedith.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://meriedith.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.125.1</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/meredith/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://meriedith.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>introduction to openai function calling</title>
-      <link>http://localhost:1313/meredith/posts/function_calling/</link>
+      <link>https://meriedith.com/posts/function_calling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/meredith/posts/function_calling/</guid>
+      <guid>https://meriedith.com/posts/function_calling/</guid>
       <description>Key Topics OpenAI Function Calls State Handling API Integration Abstract q: what is the uuid of the player merrydith? Question: How can my code respond to human like speech input?
 This project is a demonstration on how a large language model can access information outside of the data set it was trained on. OpenAI has added the capability to create functions (ex. accessing mojang api) and call respective functions when the language model sees fit.</description>
     </item>
