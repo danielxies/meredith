@@ -42,7 +42,7 @@ tags: [python]
 
   Once you look at these videos a little more, you realize how simple they are. Thus, can they be automated?
 
-## Yes, they can.
+# Yes, they can.
 
   Here is a high level overview of how I did it.
 
@@ -92,6 +92,98 @@ score_map = {}
 for comment in usable_comments:
 	result: int = score(comment)
 	score_map.add(comment, result)
+	
+comment_to_use: str = highest_score(score_map.values())
 ```
 
-The comment I would use for my video would be the one with the highest score... obviously. However, I thought I would go a step further 
+Now that I had the comment that was most interesting I passed it through a chain of functions that would do everything from creating the text to speech to upload it to youtube. This is what the function chain looked like:
+
+```python
+def main(url, title):
+
+	submission = start(url)
+	location = f"videos/{submission.title}/{submission.title}_final.mp4"
+	output_location = f"videos/{submission.title}/subtitled.mp4"
+	create_title_voice_over_tiktok(submission.title, submission.title)
+	add_text_to_image(submission.title)
+	resize_image_width(f"videos/{submission.title}/{submission.title}.png",
+				       f"videos/{submission.title}/{submission.title}.png")
+	create_movie_with_background_na(submission.title)
+	subtitled_location = subtitles(location, output_location)
+	link = youtube(subtitled_location, f"{title}", "reddit", 10, "reddit, funny,                    shorts", "public", False)
+
+return location, link
+
+# CALLING THE FUNCTION
+# CALLING THE FUNCTION
+# CALLING THE FUNCTION
+
+main("https://www.reddit.com/r/AskReddit/comments/1c7vpsu/what_viral_video_is_fake_but_people_think_its_real/", "#shorts")
+
+```
+
+I'll break down what each part does. The scoring part was the only complex part of this, the rest is pretty easy to understand.
+
+```python
+start(url)
+```
+Takes the url of the reddit post, grabs the comments, and picks a comment to use. It uses the scoring system I explained above. It also creates the text to speech and stores it in the directory structure I made.
+
+```python
+location = f"videos/{submission.title}/{submission.title}_final.mp4"
+output_location = f"videos/{submission.title}/subtitled.mp4"
+```
+There are just locations for where the generated videos would be stored. I predefined these so the function arguments wouldn't be super long.
+
+```python
+create_title_voice_over_tiktok(submission.title, submission.title)
+```
+Creates the voice over for the title of the post. The title is usually a question, and is asked first thing in the video. This definitely could be removed by adding the functionality to the `start()` function..... lol.
+
+```python
+add_text_to_image(submission.title)
+```
+Originally, I was using a selenium script to manually open Firefox, navigate to the reddit post, and take a screenshot of the `<h1>` tag as that was a title. However, if I want to host this in the cloud, I don't want it to rely on any external browsers. To fix this, I created a template...
+
+![FDSFDSF](https://cdn.discordapp.com/attachments/975237011290071040/1232805512907853864/starter.png?ex=662acb1a&is=6629799a&hm=5415a709948c1bf9781e30d957c0ee0a6355d98ca746db753bbfd2e2ea2ded7f&)
+
+And I could simply add the `title text` on top of it and use that. The `add_text_to_image()` function takes this template and slaps a title onto it, and stores it in the proper directory.
+
+```python
+resize_image_width(f"videos/{submission.title}/{submission.title}.png",
+				       f"videos/{submission.title}/{submission.title}.png")
+```
+Reels, tiktok, youtube shorts are all videos with `9x16` aspect ratios, so this just crops the image to fit in my background footage.
+
+```python
+create_movie_with_background_na(submission.title)
+```
+Now that I have all the pieces I need to create a video, this function strings everything together in the order that I defined. 
+
+```python
+subtitled_location = subtitles(location, output_location)
+```
+This is something that is quite interesting. Subtitling videos is actually quite expensive... websites charge upwards of **30$** a month for subtitling services. However, I found a workaround using OpenAI's whisper API. This function just adds subtitles and returns the filepath to the video.
+
+```python
+link = youtube(subtitled_location, f"{title}", "reddit", 10, "reddit, funny,                    shorts", "public", False)
+```
+Lastly, the video is uploaded to youtube. This is done by using google cloud's youtube data API, which limits uploads to 6 per day. 
+
+```python
+return location, link
+```
+Once the video is uploaded, it returns a link to the newly uploaded short and the file location. The chain is now done, and a watchable, subtitled, and entertaining video is now on my channel. 
+
+Compared to editing videos manually using editing software and paying for subtitling, I think this project was pretty cool to show how much can get done by simply knowing which libraries to use. If people made it this far, here are some libraries that are essential.
+
+- `moviepy`
+- `whisper`
+- `opencv`
+- `PIL`
+- `numpy`
+
+if you add `@mer49` on discord... you might get the source code.
+
+
+
