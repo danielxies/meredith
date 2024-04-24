@@ -17,9 +17,9 @@
       <link>http://localhost:1313/posts/reddit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/reddit/</guid>
-      <description>Abstract Youtube shorts, instagram reels, tiktok– these are all short videos. There is one niche in particular, where entertaining background footage is combined with text to speech storytelling that pulls quite a bit of traction and viewership.
+      <description>Abstract Youtube shorts, Instagram reels, Tiktok– these are all short videos. There is one niche in particular, where entertaining background footage is combined with text to speech storytelling that pulls quite a bit of traction and viewership.
 Once you look at these videos a little more, you realize how simple they are. Thus, can they be automated?
-Yes, they can. Here is a high level overview to how I started with nothing, and eventually built a discord bot and a frontend that could do every part of the process, from finding a story to uploading it to social media platforms.</description>
+Yes, they can. Here is a high level overview of how I did it.</description>
     </item>
     <item>
       <title>fixing code style with style</title>
