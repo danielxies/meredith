@@ -46,8 +46,6 @@ tags: [python]
 
   Here is a high level overview of how I did it.
 
-![Screenshot](https://cdn.discordapp.com/attachments/975237011290071040/1232546314362028063/Screenshot_2024-04-24_at_12.16.13_AM.png?ex=6629d9b4&is=66288834&hm=b42e3dbedf31f180bd86e6fb7880540f155e0a9226223a5fbc90a3e615eb3df8&)
-
 In the picture above, I create a reddit API instance and pull the top 400 comments from the post that I am interested in. The question is, how did I pick the comment I would use for my text to speech?
 
 Early on, I was simply taking the **top comment** and just using that, but I noticed that the text to speech generated was pretty damn boring most of the time. For example, if the question:
@@ -144,8 +142,6 @@ Creates the voice over for the title of the post. The title is usually a questio
 add_text_to_image(submission.title)
 ```
 Originally, I was using a selenium script to manually open Firefox, navigate to the reddit post, and take a screenshot of the `<h1>` tag as that was a title. However, if I want to host this in the cloud, I don't want it to rely on any external browsers. To fix this, I created a template...
-
-![FDSFDSF](https://cdn.discordapp.com/attachments/975237011290071040/1232805512907853864/starter.png?ex=662acb1a&is=6629799a&hm=5415a709948c1bf9781e30d957c0ee0a6355d98ca746db753bbfd2e2ea2ded7f&)
 
 And I could simply add the `title text` on top of it and use that. The `add_text_to_image()` function takes this template and slaps a title onto it, and stores it in the proper directory.
 
