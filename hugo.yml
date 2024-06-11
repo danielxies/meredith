@@ -77,9 +77,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/meeeeredith"
-    - name: linkedin
-      url: "https://linkedin.com/in/"
+      url: "https://github.com/"
 
   analytics:
     google:
