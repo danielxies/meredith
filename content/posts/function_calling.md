@@ -63,7 +63,7 @@ If only there was a way to extract ONLY the username out of the sentence, and th
 
 There is! OpenAI and most high end language models offer a strategy called `function calling`, which is better explained [here.](https://platform.openai.com/docs/guides/function-calling) This article is just an example you can try once you get an understanding of what function calling is.
 
-- `queued` The request is queued for processing. This status indicates that the process has started but has not yet begun extracting the relevant data.
+- `queued` The request is queued for processing. This status indicates that the process has started but has not yet begun extracting the relevant data. 
 - `in_progress` The processing of the request is now in progress. At this stage, the script is actively working to extract the username from the provided sentence.
 - `requires_action` This status typically indicates that additional input or confirmation may be needed; however, in this automated process, it proceeds swiftly to the next step.
 - `completed` The process is completed, and the UUID has been successfully retrieved.
@@ -71,7 +71,7 @@ There is! OpenAI and most high end language models offer a strategy called `func
 ### Here is what the complete chain of events looks like:
 
 ```a title="console"
-q: what is the id of the player merrydith
+q: what is the id of the player username merrydith 
 ```
 
 ```a title="status 1: queued"
